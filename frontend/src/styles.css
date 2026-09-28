@@ -25,4 +25,37 @@
   .card { @apply rounded-xl border border-gray-200 bg-white shadow-xs; }
   .table-head { @apply border-b border-gray-200 bg-gray-50 px-5 py-3 text-left text-xs font-semibold uppercase tracking-wide text-gray-500; }
   .table-cell { @apply border-b border-gray-100 px-5 py-4 text-sm text-gray-700; }
+
+  .org-children {
+    @apply relative flex items-start justify-center gap-5 pt-10;
+  }
+
+  .org-children::before {
+    content: "";
+    @apply absolute top-0 left-1/2 h-5 w-px bg-gray-300;
+  }
+
+  .org-node {
+    @apply relative flex flex-col items-center px-1;
+  }
+
+  .org-node::before,
+  .org-node::after {
+    content: "";
+    @apply absolute top-[-20px] h-px w-1/2 bg-gray-300;
+  }
+
+  .org-node::before { @apply right-1/2; }
+  .org-node::after { @apply left-1/2; }
+  .org-node:first-child::before,
+  .org-node:last-child::after { @apply hidden; }
+
+  .org-node > article::before {
+    content: "";
+    @apply absolute bottom-full left-1/2 h-5 w-px bg-gray-300;
+  }
+
+  .org-children--root { @apply pt-5; }
+  .org-children--root::before,
+  .org-children--root > .org-node > article::before { @apply hidden; }
 }
