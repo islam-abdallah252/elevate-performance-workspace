@@ -1,0 +1,42 @@
+[
+  {
+    "id": "a801daf4-095c-4136-8b50-efebc4816a26",
+    "actorUserId": "manager-a",
+    "action": "EVALUATION_CREATED",
+    "targetUserId": "ali",
+    "timestamp": "2026-09-28T17:34:21.511Z",
+    "details": {
+      "evaluationId": "7684f054-f9db-4701-97c7-59ac7a967457"
+    }
+  },
+  {
+    "id": "d534a4e5-e523-48c4-8e65-d426bf467dd6",
+    "actorUserId": "manager-a",
+    "action": "EVALUATION_CREATED",
+    "targetUserId": "manager-b",
+    "timestamp": "2026-09-28T17:34:28.718Z",
+    "details": {
+      "evaluationId": "eed1b2da-51c3-471a-9eb2-4f7c835756f3"
+    }
+  },
+  {
+    "id": "54a07bfc-12b2-44f0-92b3-b2694e85613b",
+    "actorUserId": "director",
+    "action": "EVALUATION_CLOSED",
+    "targetUserId": "islam",
+    "timestamp": "2026-09-28T17:37:49.771Z",
+    "details": {
+      "evaluationId": "eval-islam-q3"
+    }
+  },
+  {
+    "id": "ed631631-6027-401a-b6de-bee804bf2952",
+    "actorUserId": "director",
+    "action": "EVALUATION_CLOSED",
+    "targetUserId": "sara",
+    "timestamp": "2026-09-28T17:38:30.801Z",
+    "details": {
+      "evaluationId": "eval-sara-q3"
+    }
+  }
+]

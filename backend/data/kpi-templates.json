@@ -1,0 +1,215 @@
+[
+  {
+    "id": "tpl-engineering",
+    "ownerUserId": "manager-a",
+    "name": "Engineering Team Template",
+    "description": "Balanced delivery, quality, ownership, and collaboration KPIs.",
+    "status": "active",
+    "items": [
+      {
+        "key": "Q1",
+        "expectedValue": 3,
+        "weight": 5,
+        "enabled": true
+      },
+      {
+        "key": "Q2",
+        "expectedValue": 3,
+        "weight": 5,
+        "enabled": true
+      },
+      {
+        "key": "Q3",
+        "expectedValue": 4,
+        "weight": 7,
+        "enabled": true
+      },
+      {
+        "key": "Q4",
+        "expectedValue": 5,
+        "weight": 8,
+        "enabled": true
+      },
+      {
+        "key": "Q5",
+        "expectedValue": 8,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q6",
+        "expectedValue": 3,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q7",
+        "expectedValue": 10,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q8",
+        "expectedValue": 10,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q9",
+        "expectedValue": 5,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q10",
+        "expectedValue": 45,
+        "weight": 25,
+        "enabled": true
+      }
+    ],
+    "createdAt": "2026-01-02T09:00:00.000Z",
+    "updatedAt": "2026-09-01T09:00:00.000Z"
+  },
+  {
+    "id": "tpl-platform",
+    "ownerUserId": "manager-b",
+    "name": "Platform Team Template",
+    "description": "Platform delivery and engineering reliability goals.",
+    "status": "active",
+    "items": [
+      {
+        "key": "Q1",
+        "expectedValue": 3,
+        "weight": 5,
+        "enabled": true
+      },
+      {
+        "key": "Q2",
+        "expectedValue": 3,
+        "weight": 5,
+        "enabled": true
+      },
+      {
+        "key": "Q3",
+        "expectedValue": 4,
+        "weight": 7,
+        "enabled": true
+      },
+      {
+        "key": "Q4",
+        "expectedValue": 5,
+        "weight": 8,
+        "enabled": true
+      },
+      {
+        "key": "Q5",
+        "expectedValue": 8,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q6",
+        "expectedValue": 3,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q7",
+        "expectedValue": 10,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q8",
+        "expectedValue": 10,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q9",
+        "expectedValue": 5,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q10",
+        "expectedValue": 45,
+        "weight": 25,
+        "enabled": true
+      }
+    ],
+    "createdAt": "2026-01-02T09:00:00.000Z",
+    "updatedAt": "2026-09-01T09:00:00.000Z"
+  },
+  {
+    "id": "tpl-quality",
+    "ownerUserId": "manager-c",
+    "name": "Quality Team Template",
+    "description": "Quality engineering, automation, and collaboration goals.",
+    "status": "active",
+    "items": [
+      {
+        "key": "Q1",
+        "expectedValue": 3,
+        "weight": 5,
+        "enabled": true
+      },
+      {
+        "key": "Q2",
+        "expectedValue": 3,
+        "weight": 5,
+        "enabled": true
+      },
+      {
+        "key": "Q3",
+        "expectedValue": 4,
+        "weight": 7,
+        "enabled": true
+      },
+      {
+        "key": "Q4",
+        "expectedValue": 5,
+        "weight": 8,
+        "enabled": true
+      },
+      {
+        "key": "Q5",
+        "expectedValue": 8,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q6",
+        "expectedValue": 3,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q7",
+        "expectedValue": 10,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q8",
+        "expectedValue": 10,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q9",
+        "expectedValue": 5,
+        "weight": 10,
+        "enabled": true
+      },
+      {
+        "key": "Q10",
+        "expectedValue": 45,
+        "weight": 25,
+        "enabled": true
+      }
+    ],
+    "createdAt": "2026-01-02T09:00:00.000Z",
+    "updatedAt": "2026-09-01T09:00:00.000Z"
+  }
+]

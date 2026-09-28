@@ -1,0 +1,38 @@
+import { Router } from "express";
+import { apiController as c } from "../controllers/api-controller.js";
+
+export const apiRouter = Router();
+
+apiRouter.get("/health", (_req, res) => res.json({ data: { status: "ok" } }));
+apiRouter.get("/demo-actors", c.demoActors);
+apiRouter.get("/session", c.session);
+apiRouter.get("/dashboard", c.dashboard);
+apiRouter.get("/users", c.users);
+apiRouter.post("/users", c.createUser);
+apiRouter.get("/users/:id", c.user);
+apiRouter.put("/users/:id", c.updateUser);
+apiRouter.put("/users/:id/kpi-assignment", c.assignTemplate);
+apiRouter.get("/users/:id/children", c.children);
+apiRouter.get("/users/:id/team", c.team);
+apiRouter.get("/users/:id/evaluations", c.userEvaluations);
+apiRouter.get("/users/:id/performance-history", c.history);
+apiRouter.get("/kpi-keys", c.keys);
+apiRouter.post("/kpi-keys", c.createKey);
+apiRouter.get("/kpi-keys/:key", c.key);
+apiRouter.put("/kpi-keys/:key", c.updateKey);
+apiRouter.delete("/kpi-keys/:key", c.deleteKey);
+apiRouter.get("/kpi-templates", c.templates);
+apiRouter.post("/kpi-templates", c.createTemplate);
+apiRouter.get("/kpi-templates/:id", c.template);
+apiRouter.put("/kpi-templates/:id", c.updateTemplate);
+apiRouter.delete("/kpi-templates/:id", c.deleteTemplate);
+apiRouter.get("/periods", c.periods);
+apiRouter.post("/periods", c.createPeriod);
+apiRouter.put("/periods/:id", c.updatePeriod);
+apiRouter.get("/evaluations", c.evaluations);
+apiRouter.post("/evaluations", c.createEvaluation);
+apiRouter.get("/evaluations/:id", c.evaluation);
+apiRouter.put("/evaluations/:id", c.updateEvaluation);
+apiRouter.post("/evaluations/:id/submit", c.submitEvaluation);
+apiRouter.post("/evaluations/:id/close", c.closeEvaluation);
+apiRouter.get("/audit-logs", c.audits);

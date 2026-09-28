@@ -1,0 +1,19 @@
+{
+  "name": "performance-kpi-mvp",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": ["frontend", "backend", "packages/contracts"],
+  "scripts": {
+    "dev": "concurrently -n API,WEB -c yellow,cyan \"npm run dev -w @kpi/backend\" \"npm run dev -w @kpi/frontend\"",
+    "build": "npm run build -w @kpi/contracts && npm run build -w @kpi/backend && npm run build -w @kpi/frontend",
+    "test": "npm run test -w @kpi/backend && npm run test -w @kpi/frontend",
+    "test:e2e": "playwright test",
+    "lint": "npm run build -w @kpi/contracts && npm run lint -w @kpi/backend && npm run lint -w @kpi/frontend",
+    "seed": "npm run seed -w @kpi/backend"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "concurrently": "^9.2.1"
+  },
+  "engines": { "node": ">=20" }
+}
